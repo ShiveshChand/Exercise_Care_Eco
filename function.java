@@ -21,7 +21,7 @@ public class function{
 	System.out.println(arry);
 	System.out.println(arry[2]);
 	try {
-	System.out.println(arry[9]);
+	System.out.println(arry[9]); // Exception ArryOutofBounds  
 	}
 	catch(Exception e) {
 		System.out.println(e);
